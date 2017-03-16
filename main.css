@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  background-image: url("http://www.parks.ca.gov/pages/551/images/P0074675_calaveras.jpg");
+    background-image:   url("http://www.parks.ca.gov/pages/551/images/P0074675_calaveras.jpg");
   background-repeat: no-repeat;
   background-position: 130% -5%;
   font-family: 'Fira Sans Condensed', sans-serif;
@@ -13,23 +13,30 @@ body {
   margin: -5px;
   padding: 0;
   width: 70%;
-  background-opacity: 80%;
+  
+}
+#zen-summary, #zen-preamble, #zen-supportive, #zen-explanation, #zen-participation, #zen-requirements, #zen-benefits {
+  width:100%;
+  border: 1px;
+  border: 1px;
+  border-radius: 20px 20px 20px 5px;
+  background: #E8A51C
 }
 
 }
 p {
+  position: absolute;
   margin-left: 60px;
   text-align: justify;
-  border: solid 2px;
+  border: 2px;
   border-radius: 5px 5px 5px 5px;
-  background: #E8A51C;
   padding: 0;
   margin: 0;
+  background: #E8A51C;
 }
-
 h1 {
   width: 20%;
-  border:  1px;
+  border: 1px;
   border-radius: 20px 5px 20px 5px;
   background: #E8A51C;
   padding: 20px;
@@ -37,16 +44,32 @@ h1 {
   position: relative;
   margin-left: 90%;
 }
-
 h2,
 h3 {
   width: 50%;
   text-align: center;
-  font: 1.4em  georgia;
+  font: 1.4em georgia;
   border: 1px;
   border-radius: 5px 5px 5px 5px;
   background: #768A62;
   padding: 0;
   margin: 0;
   position: relative
+}
+.sidebar {
+    font-family: georgia;
+  line-height:27px;
+  order: 1px;
+  border: 1px;
+  border-radius: 20px 20px 20px 5px;
+  background: #E8A51C;
+  margin-left 600px;
+  position:absolute;
+  top:500px;
+  right:0;
+}
+a:link {
+  font-weight: bold;
+  font-style:italic;
+  color: black;
 }
