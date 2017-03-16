@@ -1,0 +1,52 @@
+html {
+  padding: 20px;
+  margin: 5%;
+}
+
+body {
+  background-image: url("http://www.parks.ca.gov/pages/551/images/P0074675_calaveras.jpg");
+  background-repeat: no-repeat;
+  background-position: 130% -5%;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  line-height: .90;
+  background-color: #F6F3AD;
+  margin: -5px;
+  padding: 0;
+  width: 70%;
+  background-opacity: 80%;
+}
+
+}
+p {
+  margin-left: 60px;
+  text-align: justify;
+  border: solid 2px;
+  border-radius: 5px 5px 5px 5px;
+  background: #E8A51C;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  width: 20%;
+  border:  1px;
+  border-radius: 20px 5px 20px 5px;
+  background: #E8A51C;
+  padding: 20px;
+  margin: -20px;
+  position: relative;
+  margin-left: 90%;
+}
+
+h2,
+h3 {
+  width: 50%;
+  text-align: center;
+  font: 1.4em  georgia;
+  border: 1px;
+  border-radius: 5px 5px 5px 5px;
+  background: #768A62;
+  padding: 0;
+  margin: 0;
+  position: relative
+}
